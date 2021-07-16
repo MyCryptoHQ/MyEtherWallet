@@ -38,4 +38,5 @@ export type NetworkId =
   | 'SmartChainTestNetwork'
   | 'Avalanche'
   | 'AvalancheTestnet'
-  | 'EVRICE';
+  | 'EVRICE'
+  | 'Fantom';

@@ -1104,5 +1104,31 @@ export const NETWORKS_CONFIG: NetworkConfig = {
       max: 60,
       initial: 1
     }
+  },
+  Fantom: {
+    id: 'Fantom',
+    name: 'Fantom Opera',
+    unit: 'FTM' as TTicker,
+    chainId: 250,
+    isCustom: false,
+    color: '#1969ff',
+    blockExplorer: makeExplorer({
+      name: 'FTMScan',
+      origin: 'https://ftmscan.com'
+    }),
+    tokens: [],
+    contracts: [],
+    dPaths: {
+      [WalletId.TREZOR]: DEFAULT_ETH,
+      [WalletId.LEDGER_NANO_S]: DEFAULT_ETH,
+      [WalletId.TREZOR_NEW]: DEFAULT_ETH,
+      [WalletId.LEDGER_NANO_S_NEW]: DEFAULT_ETH,
+      default: DEFAULT_ETH
+    },
+    gasPriceSettings: {
+      min: 1,
+      max: 60,
+      initial: 1
+    }
   }
 };
