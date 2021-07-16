@@ -29,16 +29,6 @@ const PATHS: IRoutePath[] = [
     path: '/create-wallet'
   },
   {
-    name: 'CREATE_WALLET_MNEMONIC',
-    title: translateRaw('CREATE_WALLET_MNEMONIC'),
-    path: '/create-wallet/mnemonic'
-  },
-  {
-    name: 'CREATE_WALLET_KEYSTORE',
-    title: translateRaw('CREATE_WALLET_KEYSTORE'),
-    path: '/create-wallet/keystore'
-  },
-  {
     name: 'DOWNLOAD_DESKTOP_APP',
     title: translateRaw('DOWNLOAD_DESKTOP_APP'),
     path: '/download-desktop-app'

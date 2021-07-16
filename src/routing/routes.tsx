@@ -127,22 +127,6 @@ export const getStaticAppRoutes = (featureFlags: FeatureFlags): IAppRoute[] => [
     component: DownloadAppRedirect
   },
   {
-    name: ROUTE_PATHS.CREATE_WALLET_MNEMONIC.name,
-    title: ROUTE_PATHS.CREATE_WALLET_MNEMONIC.title,
-    path: ROUTE_PATHS.CREATE_WALLET_MNEMONIC.path,
-    enabled: isTruthy(featureFlags.CREATE_WALLET),
-    exact: true,
-    component: DownloadAppRedirect
-  },
-  {
-    name: ROUTE_PATHS.CREATE_WALLET_KEYSTORE.name,
-    title: ROUTE_PATHS.CREATE_WALLET_KEYSTORE.title,
-    path: ROUTE_PATHS.CREATE_WALLET_KEYSTORE.path,
-    enabled: isTruthy(featureFlags.CREATE_WALLET),
-    exact: true,
-    component: DownloadAppRedirect
-  },
-  {
     name: ROUTE_PATHS.DOWNLOAD_DESKTOP_APP.name,
     title: ROUTE_PATHS.DOWNLOAD_DESKTOP_APP.title,
     path: ROUTE_PATHS.DOWNLOAD_DESKTOP_APP.path,

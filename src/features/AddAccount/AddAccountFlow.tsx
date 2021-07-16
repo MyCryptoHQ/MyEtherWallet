@@ -99,7 +99,7 @@ const AddAccountFlow = withRouter(({ history, match }) => {
 
   const renderDefault = () => {
     return (
-      <ExtendedContentPanel width="800px">
+      <ExtendedContentPanel width="810px">
         <TransitionGroup>
           <CSSTransition classNames="DecryptContent" timeout={500}>
             <WalletList wallets={getStories()} onSelect={onWalletSelection} showHeader={true} />
@@ -117,7 +117,7 @@ const AddAccountFlow = withRouter(({ history, match }) => {
       <ExtendedContentPanel
         onBack={goToPreviousStep}
         stepper={steps.length > 1 ? { current: step + 1, total: steps.length } : undefined}
-        width="800px"
+        width="810px"
       >
         <TransitionGroup>
           <CSSTransition classNames="DecryptContent" timeout={500}>

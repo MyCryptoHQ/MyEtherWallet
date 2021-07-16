@@ -16,7 +16,7 @@ export const BusyBottom = ({ type }: { type: BusyBottomConfig }) => {
         {configs[type].map(({ copy, copyVariables, link, external }, index) => {
           return (
             <Fragment key={index}>
-              <LinkApp isExternal={!!external} href={link}>
+              <LinkApp isExternal={!!external} href={link} textAlign="center">
                 {translateRaw(copy, copyVariables)}
               </LinkApp>
 
