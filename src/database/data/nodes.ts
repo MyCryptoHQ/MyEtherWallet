@@ -453,5 +453,13 @@ export const NODES_CONFIG: { [key in NetworkId]: StaticNodeConfig[] } = {
       service: 'evrice.com',
       url: 'https://meta.evrice.com'
     }
+  ],
+  HECO: [
+    {
+      name: NetworkUtils.makeNodeName('HECO', 'hecochain.com'),
+      type: NodeType.RPC,
+      service: 'Hecochain.com',
+      url: 'https://http-mainnet.hecochain.com/'
+    }
   ]
 };

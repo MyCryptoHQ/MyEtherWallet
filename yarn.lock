@@ -3083,10 +3083,10 @@
   dependencies:
     "@findeth/abi" "^0.7.1"
 
-"@mycrypto/wallets@1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@mycrypto/wallets/-/wallets-1.2.2.tgz#42f4b6b7b97aaf3137a8c8616a0d6e729b972815"
-  integrity sha512-16V4QboWNg3xqCQJVxQAXjNz07SxjC86cwy56nbSySFmJIykmrM1DtIf9PFRMxpKd1xQxUxSqwUDFMPOG2capw==
+"@mycrypto/wallets@1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@mycrypto/wallets/-/wallets-1.2.3.tgz#a7219bfabc22956b10fcdb95643047aeed79e09e"
+  integrity sha512-7MZO/vSfnu9OVLm3qbPIIW1n855Pdpv02iNSPYjQWrR2n5PDjjo+Yy3Jt1HNSgOojoTHn8BaHy/Rx+67pvq5Dw==
   dependencies:
     "@ethersproject/abstract-provider" "5.3.0"
     "@ethersproject/address" "5.3.0"
